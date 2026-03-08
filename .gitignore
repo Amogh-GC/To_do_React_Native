@@ -32,6 +32,10 @@ local.properties
 !debug.keystore
 android/app/build/
 
+# Firebase - never commit these (contain API keys)
+google-services.json
+GoogleService-Info.plist
+
 # node.js
 node_modules/
 npm-debug.log
